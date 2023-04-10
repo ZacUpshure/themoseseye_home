@@ -7,50 +7,6 @@ import { AiFillBehanceCircle } from 'react-icons/ai';
 
 const RealFooter = () => {
   return (
-    // <footer className='footer'>
-    //     <div className='footer-container'>
-    //         <div className='row'>
-    //             <div className='footer-col'>
-    //                 <h4>company</h4>
-    //                 <ul>
-    //                     <li><a href="#">About us</a></li>
-    //                     <li><a href="#">Our services</a></li>
-    //                     <li><a href="#">Privacy policy</a></li>
-    //                     <li><a href="#">Terms of service</a></li>
-    //                 </ul>
-    //             </div>
-    //             <div className='footer-col'>
-    //                 <h4>get help</h4>
-    //                 <ul>
-    //                     <li><a href="#">FAQ</a></li>
-    //                     <li><a href="#">Order status</a></li>
-    //                     <li><a href="#">Payment options</a></li>
-    //                     <li><a href="#">Refund policies</a></li>
-    //                 </ul>
-    //             </div>
-    //             <div className='footer-col'>
-    //                 <h4>online shop</h4>
-    //                 <ul>
-    //                     <li><a href="#">Photography</a></li>
-    //                     <li><a href="#">Videography</a></li>
-    //                     <li><a href="#">Web Development</a></li>
-    //                     <li><a href="#">Corporate Design</a></li>
-    //                 </ul>
-    //             </div>
-    //             <div className='footer-col'>
-    //                 <h4>follow us</h4>
-    //                 <div className='social-links'>
-    //                     <a href="#">
-    //                         <AiOutlineInstagram className='icon' />
-    //                     </a>
-    //                     <a href="#">
-    //                         <AiFillBehanceCircle className='icon' />
-    //                     </a>
-    //                 </div>
-    //             </div>
-    //         </div>
-    //     </div>
-    // </footer>
     <footer class="footer">
         <div class="container-realfooter grid grid--footer">
           <div class="logo-col">
