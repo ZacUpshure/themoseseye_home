@@ -1,5 +1,6 @@
 import React from 'react'
 import './RealFooter.scss';
+import images from '../../constants/images';
 
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { AiFillBehanceCircle } from 'react-icons/ai';
@@ -51,38 +52,34 @@ const RealFooter = () => {
     //     </div>
     // </footer>
     <footer class="footer">
-        <div class="container grid grid--footer">
+        <div class="container-realfooter grid grid--footer">
           <div class="logo-col">
-            <a href="#" class="footer-logo">
-              {/* <img class="logo" alt="Omnifood logo" src="img/test.png" />  LOGO*/}
+            <a href="#" class="footer-logo app__navbar-logo">
+              <img class="logo" alt="Omnifood logo" src={images.logo} />
             </a>
   
             <ul class="social-links">
               <li>
                 <a class="footer-link" href="#">
-                    {/* social icon */}
+                    <AiOutlineInstagram />
                 </a>
               </li>
               <li>
-                <a class="footer-link" href="#"
-                  ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
-                ></a>
-              </li>
-              <li>
-                <a class="footer-link" href="#"
-                  ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
-                ></a>
+                <a class="footer-link" href="#">
+                    <AiFillBehanceCircle />
+                </a>
               </li>
             </ul>
-  
             <p class="copyright">
-              Copyright &copy; <span class="year">2027</span> by Engelmann Development. All rights reserved.
+              by Engelmann Development. All rights reserved.
+              <br />
+              Copyright &copy; 2027.
             </p>
           </div>
           <div class="address-col">
             <p class="footer-heading">Contact us</p>
             <address class="contacts">
-              <p class="address">
+              <p class="address p-text">
                 623 Harrison St., 2nd Floor, San Francisco, CA 94107
               </p>
               <p>
