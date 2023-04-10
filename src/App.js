@@ -1,9 +1,12 @@
 import React from 'react'
 import './App.scss';
+// import './querries.scss';
+
 
 import {
   About, 
-  Footer, 
+  FooterTwo,
+  RealFooter, 
   Header, 
   Skills, 
   Testimonial, 
@@ -19,9 +22,10 @@ const App = () => {
         <Header />
         <About />
         <Work />
-        <Skills />
-        <Testimonial />
-        <Footer />
+        {/* <Skills /> */}
+        {/* <Testimonial /> */}
+        <FooterTwo />
+        <RealFooter />
     </div>
   );
 }
